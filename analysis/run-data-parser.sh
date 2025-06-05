@@ -9,6 +9,6 @@ file=$1
 
 myfile='"'$file'"'
 
-cd /w/halla-scshelf2102/sbs/ewertz/nTPE_analysis/analysis/gmn_ntpe
+cd /w/halla-scshelf2102/sbs/ewertz/nTPE_analysis/analysis/gmn_ntpe ### THIS SHOULD BE CHANGED OBVI
 
 root -l -b -q 'data_elastic_parse.C('$myfile')'
